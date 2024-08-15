@@ -13,7 +13,8 @@
 }
 .login-box{
     position: relative;
-    background-color: #a4b6c2;
+    background-color:none;
+    box-shadow: 0 0 20px 5px whitesmoke;
     height:400px;
     width: 350px;
     display: flex;
