@@ -46,11 +46,12 @@ body{
 .header-menu{
     position: relative;
     display: flex;
-    left: 400px;
+    left: 900px;
     top:-89px;
     flex-direction: row;
     justify-content: center;
     margin-left: -250px;
+    width: fit-content;
 }
 .pages{
     margin: auto 20px;
@@ -70,4 +71,9 @@ body{
     color: whitesmoke;
     box-shadow: 0 0 10px 3px ;
     transition: 1sec;
+}
+.shopping-cart{
+    height: 33px;
+    width: 33px;
+    margin-left: 10px;
 }
