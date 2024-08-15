@@ -59,8 +59,31 @@
     border: none;
     background-color:white;
 }
+.forgot{
+    position: absolute;
+    height:25px;
+    top: 260px;
+    left: 60px;
+}
 .section-1{
     background-image: url("./../Images/index-img/sec-1-bg.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
+}
+.btn-login{
+    position: absolute;
+    height:25px;
+    top:300px;
+    left:20px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    padding: -2px;
+    font-size: 18px;
+    margin-left: 100px;
+    background-color:black;
+    color: white;
 }
