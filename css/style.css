@@ -13,7 +13,7 @@ body{
     text-decoration: none;
 }
 .logo{
-    position: fixed;
+    position:relative;
     height: 80px;
     width: 210px;
     left: 100px;
@@ -21,7 +21,7 @@ body{
 }
 .search{
     left:350px;
-    top:28px;
+    top:-55px;
     height:35px;
     width: 80px;
     position:relative;
@@ -44,15 +44,16 @@ body{
     margin-top: 4px;
 }
 .header-menu{
+    position: relative;
     display: flex;
-    position: fixed;
-    left: 700px;
-    top:23px;
+    left: 400px;
+    top:-89px;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    margin-left: -250px;
 }
 .pages{
-    margin: 10px 20px;
+    margin: auto 20px;
     text-decoration: none;
     text-align: center;
     color: black;
@@ -61,7 +62,7 @@ body{
     width:74px;
     border: solid transparent 1px;
     border-radius: 30px;
-    box-shadow: 0 0 3px 1px #adad85;
+    box-shadow: 0 0 3px 1px whitesmoke;
     cursor: pointer;
 }
 .pages:hover{
