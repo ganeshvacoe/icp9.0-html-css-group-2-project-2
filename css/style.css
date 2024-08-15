@@ -59,13 +59,14 @@ body{
     height: 10px;
     padding:7px 20px 15px 20px;
     width:74px;
-    border: solid #9f9f93 1px;
+    border: solid transparent 1px;
     border-radius: 30px;
-    box-shadow: 0 0 6px 2px #adad85;
+    box-shadow: 0 0 3px 1px #adad85;
     cursor: pointer;
 }
 .pages:hover{
-    background-color:#a64dff;
-    color: white;
-    box-shadow: 0 0 10px 3px #dd99ff ;
+    background-color:black;
+    color: whitesmoke;
+    box-shadow: 0 0 10px 3px ;
+    transition: 1sec;
 }
