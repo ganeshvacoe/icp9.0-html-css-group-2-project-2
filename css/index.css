@@ -41,11 +41,23 @@
     left: 60px;
     height:25px;
     width:200px;
-    border-top:none ;
-    border-left:none;
-    border-right: none;
-    border-bottom:solid black 1px;
-    background-color:#a4b6c2 ;
+    border: none;
+    background-color:white;
+}
+.password{
+    position:absolute;
+    font-size:17px;
+    top: 170px;
+    left: 60px;
+}
+.password-box{
+    position: absolute;
+    height:25px;
+    top: 220px;
+    left: 60px;
+    width:200px;
+    border: none;
+    background-color:white;
 }
 .section-1{
     background-image: url("./../Images/index-img/sec-1-bg.jpg");
