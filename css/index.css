@@ -8,15 +8,25 @@
 }
 .video-1{
     position: relative;
-    left: -110px;
+    left: 10px;
     margin: 50px;
-    height: 300px;
-    width: 300px;
 }
 .login-box{
     background-color: #a4b6c2;
     height:400px;
     width: 400px;
     margin: 50px;
+    margin-top: 80px;
     margin-left: -20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 8px;
+    margin-top: 60px;
+    border: none;
+}
+.section-1{
+    background-image: url("./../Images/sec-1-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
