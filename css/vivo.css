@@ -1,0 +1,75 @@
+.off-video-heading{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.vivo-video{
+    position: relative;
+    top: 100px;
+    left: 130px;
+}
+.vivo-heading{
+    position: relative;
+    top: 50px;
+    right: 420px;
+    font-size:120px;
+    color: white;
+}
+.font-size25{
+    font-size: 25px;
+    font-weight: bold;
+}
+.font-size15{
+    font-size:20px;
+}
+.font-family-a{
+    font-family: "Averia Sans Libre", sans-serif;
+}
+.vivo-header{
+    width: 1400px;
+    height: 130px;
+    background-color: greenyellow;
+    align-items: center;
+    margin-left: 50px;
+    margin-bottom: 40px;
+    border-radius: 30px;
+}
+.v-header-btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    padding: -2px;
+    font-size: 18px;
+    margin: 50px auto;
+    background-color:black;
+    color: white;
+}
+/*----------------cards---------------------*/
+.vivo-cards-box{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    background-color: tomato;
+    width:100%;
+    height:1100px;
+    
+}
+.vivo-card1{
+    height: 400px;
+    width:300px;
+    margin: 20px 20px;
+    background-color: white;
+}
+.vivo-1-img{
+    height: 300px;
+}
+.info{
+    background-color:gray;
+    font-size: 20px;
+    font-family: "Averia Sans Libre", sans-serif;
+    text-align: start;
+    align-items: center;
+}
