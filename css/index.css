@@ -12,21 +12,79 @@
     margin: 50px;
 }
 .login-box{
-    background-color: #a4b6c2;
+    position: relative;
+    background-color:none;
+    box-shadow: 0 0 20px 5px whitesmoke;
     height:400px;
-    width: 400px;
-    margin: 50px;
-    margin-top: 80px;
-    margin-left: -20px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin: 8px;
-    margin-top: 60px;
     border: none;
+    margin-left: -20px;
+    margin-top: 25px;
+}
+.login-text{
+    position: absolute;
+    top: 5px;
+    left: 135px;
+    font-size: 25px;
+}
+.username{
+    position: absolute;
+    font-size:17px;
+    top: 90px;
+    left: 60px;
+}
+.username-box{
+    position: absolute;
+    top: 130px;
+    left: 60px;
+    height:25px;
+    width:200px;
+    border: none;
+    background-color:white;
+}
+.password{
+    position:absolute;
+    font-size:17px;
+    top: 170px;
+    left: 60px;
+}
+.password-box{
+    position: absolute;
+    height:25px;
+    top: 220px;
+    left: 60px;
+    width:200px;
+    border: none;
+    background-color:white;
+}
+.forgot{
+    position: absolute;
+    height:25px;
+    top: 260px;
+    left: 60px;
 }
 .section-1{
     background-image: url("./../Images/index-img/sec-1-bg.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
+}
+.btn-login{
+    position: absolute;
+    height:25px;
+    top:300px;
+    left:20px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    padding: -2px;
+    font-size: 18px;
+    margin-left: 100px;
+    background-color:black;
+    color: white;
 }
