@@ -1,34 +1,8 @@
-.img{
-    width: 1185px;
-    height: 200px;
-}
-.box{
-    background-color: hsl(120, 13%, 95%);
-    height: 300px;
-    width:200px;
-    display:flex;
-    justify-content: space-around;
-    margin: 10px;
-    border:solid rgb(215, 187, 175) 2px;
-    box-shadow:2px 2px 2px 2px #99a192;
-    border-radius: 10px;
-}
-.img1{
-    height:200px;
-    width: 190px;
-    border:solid rgb(255, 255, 255) 4px;
-    border-radius: 10px;
-    margin-bottom:auto;
-}
 
-.rs{
-    height: 10px;
-    width:10px;
-}
-.btn{
+
+.btn4{
     border: none;
     border-radius:20px;
-    text-align: center;
     text-align: center;
     width: 90px;
     margin-left: 20px;
@@ -37,6 +11,7 @@
 .oppo{
     display: flex;
     justify-content:center;
+    flex-direction: row;
     background-color: aliceblue;
     height: 40px;
     margin-top: none;
@@ -47,21 +22,40 @@
     padding-bottom: 20px;
 
 }
-.flex{
-    display: flex;
-    background-color: rgb(246, 209, 235);
-    margin-top: 30px;
-    flex-direction: column;
-}
-.sb1{
-    background-color: blueviolet;
-    justify-content: end;
-    height: 50px;
-    width: 500px;
-    display: inline-block;
-}
+
+
 .hover:hover{
     background-color: black;
     color: aliceblue;
     transition: 0s;
+}
+.oppo-cards-box{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    width:100%;
+    height: 545PX;
+    background-color: antiquewhite;
+}
+.oppo-card1{
+    height: 400px;
+    width:270px;
+    margin: 20px 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+.oppo-1-img{
+    height: 300px;
+    width: 250px;
+    margin: 10px;
+    margin-top: 25PX;
+}
+.info{
+    background-color:gray;
+    border-radius:0 0 20px 20px;
+    font-size: 20px;
+    font-family: "Averia Sans Libre", sans-serif;
+    text-align: start;
+    align-items: center;
 }
