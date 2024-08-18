@@ -97,3 +97,6 @@ border-radius: 30px;
     box-shadow: -5px 5px 10px 1px #131620;
     color: #0f061f;
 }
+.checkbox{
+    width: 20px;
+}
