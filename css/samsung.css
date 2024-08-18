@@ -44,4 +44,12 @@ body{
     box-shadow: 0 0 10px 3px ;
     transition: 1sec;
 }
+.sec{
+    padding: 10px, 5%;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+}
 
