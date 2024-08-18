@@ -45,6 +45,26 @@ body{
     display: flex;
     justify-content: space-around; 
     flex-wrap: wrap;
+<<<<<<< HEAD
+=======
+}
+.heading-feedback{
+    font-size: 33px;
+    width:600px;
+    height:60px;
+    margin-left:450px;
+    margin-top:-10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    background-color:transparent;
+    color: white;
+}
+.heading-feedback:hover{
+border: dotted gainsboro 1px;
+box-shadow: 0 0 7px 2px white;
+border-radius: 30px;
+>>>>>>> aef4ae03fc172a937486029ee62c95c6d94262a4
 }
 .heading-feedback{
     font-size: 33px;
