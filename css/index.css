@@ -175,3 +175,42 @@ border-radius: 30px;
     font-size: 40px;
     color: black;
 }
+.best-sale{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.best-sale-card{
+    height: 400px;
+    width: 350px;
+    border-radius:40px;
+    margin: 50px auto;
+    background-color:lightgrey;
+}
+.h-bestdeal{
+    margin-top:60px;
+}
+.oneplus-deal{
+    height: 400px;
+    width: 400px;
+    margin-left: -20px;
+}
+.iphone-deal{
+    height: 360px;
+    width: 400px;
+    margin-left:-20px;
+    margin-top: 10px;
+}
+.vivo-deal{
+    height: 360px;
+    width: 400px;
+    margin-left:-20px;
+    margin-top: 10px;
+}
+.deal-btn{
+   height:40px;
+   width: 60px;
+   margin-left: 40px;
+   background-color: tomato;
+}
