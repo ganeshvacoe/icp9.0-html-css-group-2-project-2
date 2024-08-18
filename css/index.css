@@ -201,13 +201,15 @@ border-radius: 30px;
     height: 360px;
     width: 400px;
     margin-left:-20px;
-    margin-top: 10px;
+    margin-top:15px;
+    margin-bottom: 20px;
 }
 .vivo-deal{
     height: 360px;
     width: 400px;
     margin-left:-20px;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 .deal-btn{
    height:30px;
@@ -228,4 +230,8 @@ border-radius: 30px;
 .text-dealcard{
     font-size:25px;
     margin-top: -30px;
+}
+.rs{
+    color:#ff0000;
+    font-weight: bold;
 }
