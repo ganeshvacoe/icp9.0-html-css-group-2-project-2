@@ -219,13 +219,13 @@ border-radius: 30px;
    border-radius: 30px;
    padding-top: 10px;
    padding-bottom: 15px;
-   background-color:gray;
-   color: white;
+   background-color:white;
+   color:black;
    cursor: pointer;
 }
 .deal-btn:hover{
-    background-color: black;
-    box-shadow: 0 0 6px 4px whitesmoke;
+    background-color:white;
+    box-shadow: 0 0 6px 2px gray;
 }
 .text-dealcard{
     font-size:25px;

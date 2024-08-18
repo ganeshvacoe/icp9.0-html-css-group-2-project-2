@@ -115,3 +115,24 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 33px;
     margin-left: 10px;
 }
+.footer{
+    width: 100%;
+    background-color:lightgrey;
+    height:250px;
+}
+.footer-icon{
+    height: 30px;
+    width: 30px;
+    margin:10px 10px;
+}
+.footer-icon-div{
+    margin-left:620px;
+    padding-top:50px;
+}
+.footer-icon-text{
+    margin-left:630px;
+    padding-top:10px;
+}
+.black{
+    color: black;
+}
