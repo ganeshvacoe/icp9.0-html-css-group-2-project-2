@@ -8,8 +8,6 @@ body{
     text-align: center;
     color:slategrey;
 }
-
-
 .sec{
     padding: 10px, 5%;
 }
@@ -134,7 +132,12 @@ body{
     background-color: brown;
     color: white;
 }
-
+.background-img-samsung{
+    background-image: url("./../Images/index-img/sec-1-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 400px;
+}
 
 .samsung-header{
     width: 1400px;
@@ -142,7 +145,8 @@ body{
     background-color:transparent;
     align-items: center;
     margin-left: 50px;
-    margin-bottom: 40px;
+    margin-top: -25px;
+    margin-bottom: -100px;
     border-radius: 30px;
     display: flex;
     flex-direction: row;
