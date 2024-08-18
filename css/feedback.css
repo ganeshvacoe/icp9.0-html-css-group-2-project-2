@@ -8,7 +8,8 @@ body{
         height: 1200px;
 }
 .sub-heading{
-    color: #b0b09c;
+    color:white;
+    font-size: 20px;
 }
 .favicon{
     height: 40px;
@@ -25,6 +26,14 @@ body{
     box-shadow: -5px 5px 10px 1px #131620;
     border: 0.5px solid #e3f6f5;
 }
+
+.rating-container:hover{
+    box-shadow: -5px 5px 20px 2px #2d334a ;
+    transition: 1s;
+    cursor: pointer;
+
+}
+
 .rating-icon{
     height: 30px;
     width: 30px;
@@ -36,5 +45,38 @@ body{
     display: flex;
     justify-content: space-around; 
     flex-wrap: wrap;
-
+}
+.heading-feedback{
+    font-size: 33px;
+    width:600px;
+    height:60px;
+    margin-left:450px;
+    margin-top:-10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    background-color:transparent;
+    color: white;
+}
+.heading-feedback:hover{
+border: dotted gainsboro 1px;
+box-shadow: 0 0 7px 2px white;
+border-radius: 30px;
+}
+.btn{
+    font-weight: bold;
+    background-color: #0f061f ;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 20px;
+    display: block;
+    margin: 10px auto;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #ccccff;
+    font-weight: bold;
+    box-shadow: -5px 5px 10px 1px #131620;
+    color: #0f061f;
 }
