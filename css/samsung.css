@@ -7,3 +7,17 @@ body{
     text-align: center;
     color:slategrey;
 }
+.samsung-header{
+    width: 1400px;
+    height: 130px;
+    background-color:transparent;
+    align-items: center;
+    margin-left: 50px;
+    margin-bottom: 40px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: whitesmoke;
+    box-shadow:0 0 3px 1px darkgray;
+}
