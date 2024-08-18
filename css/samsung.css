@@ -7,6 +7,71 @@ body{
     text-align: center;
     color:slategrey;
 }
+
+
+.sec{
+    padding: 10px, 5%;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+}
+
+.products .card{
+    width: 300px;
+    background:whitesmoke ;
+    box-shadow: 0,10px,20px rgba(0, 0, 0, 0,3);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.products .card img{
+    width: 100%;
+    height: 200px;
+}
+.products .card .desc{
+    padding: 5px,20px;
+    opacity: 0.8;
+}
+
+.products .card .title
+{
+    font-size: 20px;
+    color:violet;
+    padding: 0 20px;
+}
+
+.products .card .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.products .card .box .price{
+    color: yellowgreen;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.products .card .box .BuyBtn{
+    color: rgb(198, 22, 25);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 1px solid tomato;
+    border-radius: 20px ;
+
+}
+
+.products .card .box .BuyBtn:hover{
+    cursor: pointer;
+    background-color: brown;
+    color: white;
+}
+
+
 .samsung-header{
     width: 1400px;
     height: 130px;
@@ -44,25 +109,7 @@ body{
     box-shadow: 0 0 10px 3px ;
     transition: 1sec;
 }
-.sec{
-    padding: 10px, 5%;
-}
 
-.products{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+h1{
+    color: red;
 }
-
-.products .card{
-    width: 300px;
-    background:whitesmoke ;
-    box-shadow: 0,10px,20px rgba(0, 0, 0, 0,3);
-    border-radius: 5px;
-    padding: 5px;
-    margin-bottom: 20px;
-}
-.products .card img{
-    width: 100%;
-    height: 200px;
-}
-
