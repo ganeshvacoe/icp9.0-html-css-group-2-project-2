@@ -30,6 +30,11 @@ body{
 .font-family{
 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.font-family-normal{
+    font-family:'Arial', sans-serif;
+    font-weight: 100;
+    font-size:18px;
+}
 .header{
     width: 100%;
     height: 90px;
@@ -109,4 +114,30 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 33px;
     width: 33px;
     margin-left: 10px;
+}
+.footer{
+    width: 100%;
+    background-color:lightgrey;
+    height:250px;
+}
+.footer-icon{
+    height: 30px;
+    width: 30px;
+    margin:10px 10px;
+}
+.footer-icon-div{
+    margin-left:620px;
+    padding-top:50px;
+}
+.footer-icon-text{
+    margin-left:630px;
+    padding-top:10px;
+}
+.black{
+    color: black;
+}
+.cate-pg-heading{
+    color: white;
+    font-size:45px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
