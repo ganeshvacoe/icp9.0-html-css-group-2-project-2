@@ -141,3 +141,16 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:45px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.btn-category{
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    padding: -2px;
+    font-size: 18px;
+    margin-left: 100px;
+    background-color:black;
+    color: white;
+    margin-top: -50px;
+}
+
