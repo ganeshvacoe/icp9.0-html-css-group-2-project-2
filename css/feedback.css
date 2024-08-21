@@ -82,7 +82,7 @@ border-radius: 30px;
 }
 .btn{
     font-weight: bold;
-    background-color: #4d4d4d;
+    background-color: #737373;
     color: black;
     border-radius: 20px;
     border: none;
@@ -95,7 +95,7 @@ border-radius: 30px;
     background-color: #404040;
     font-weight: bold;
     box-shadow: -5px 5px 10px 1px #131620;
-    color: #0f061f;
+    color: black;
 }
 .checkbox{
     width: 20px;
