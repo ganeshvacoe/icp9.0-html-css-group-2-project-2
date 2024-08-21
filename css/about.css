@@ -1,8 +1,6 @@
 body{
     background-color:lightgrey;
 }
-
-
 .align{
     text-align: center;
     font-size: 20px;
@@ -37,3 +35,18 @@ body{
     margin-top: 0px;
     font-size: 25px;
 }
+.heading-about-us{
+    font-size:35px;
+    width:700px;
+    height:60px;
+    margin-left:430px;
+    margin-top: -25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    background-color:transparent;
+    color:#404040;
+}
+.font-family{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
