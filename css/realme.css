@@ -48,20 +48,19 @@ body{
     font-weight: bold;
 }
 
-.card-container{
+.cards-container{
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;
-    justify-content:space-evenly;
+    justify-content:space-between;
     width:100%;
     height:1100px;
-    margin-top:-30px;
-    background-color:gainsboro;
+    margin-top:-180px;  
 }
 .cards{
-    height: 400px;
+    height:400px;
     width:300px;
-    margin:100px 20px;
+    margin:250px 20px;
     border-radius: 30px;
     padding-bottom:100px;
     background-color: white;
