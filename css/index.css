@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .container-1{
     display: flex;
     flex-direction: row;
@@ -6,23 +10,31 @@
     height: 400px;
     flex-wrap: wrap;
 }
-.video-1{
-    position: relative;
-    left: 10px;
-    margin: 50px;
+.heading-index{
+    font-size:50px;
+    width:300px;
+    height:60px;
+    margin-left: 600px;
+    margin-top: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    background-color:transparent;
+    color:#404040;
 }
 .login-box{
     position: relative;
-    background-color:none;
-    box-shadow: 0 0 20px 5px whitesmoke;
+    background-color:#b3b3b3;
     height:400px;
     width: 350px;
     display: flex;
+    border-radius: 30px;
     flex-direction: column;
     justify-content: space-evenly;
     border: none;
     margin-left: -20px;
-    margin-top: 25px;
+    margin-top:-20px;
+
 }
 .login-text{
     position: absolute;
@@ -43,6 +55,7 @@
     height:25px;
     width:200px;
     border: none;
+    border-radius:20px;
     background-color:white;
 }
 .password{
@@ -56,20 +69,28 @@
     height:25px;
     top: 220px;
     left: 60px;
-    width:200px;
+    width: 200px;
     border: none;
+    border-radius: 20px;
     background-color:white;
 }
 .forgot{
     position: absolute;
+    text-decoration: none;
     height:25px;
     top: 260px;
     left: 60px;
 }
+<<<<<<< HEAD
 .section-1{
     background-image: url("./../Images/index-img/sec-1-bg.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
+=======
+.index-background{
+    background-color:#d9d9d9;
+    height:780px;
+>>>>>>> 7267796c385287327cc8dc54895b39612d615d4f
 }
 .btn-login{
     position: absolute;
@@ -80,11 +101,182 @@
 .btn{
     width: 100px;
     height: 40px;
-    border-radius: 30px;
     border: none;
     padding: -2px;
     font-size: 18px;
     margin-left: 100px;
-    background-color:black;
+    background-color:white;
+    color:black;
+}
+.btn:hover{
+    background-color:#999999;
     color: white;
+    box-shadow: 0 0 7px 3px ;
+    transition: 1sec;
+}
+.white-heading{
+    color: white;
+}
+.index-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.index-card-1{
+    height: 390px;
+    width: 350px;
+    margin: 50px 60px;
+    margin-top:10px;
+    border-radius: 30px;
+    background-color:lightgrey;
+}
+.giftbox{
+    height:120px;
+    width:130px;
+    margin-top:18px;
+    margin-left: 110px;
+}
+.best-deal{
+    height:120px;
+    width:130px;
+    margin-top:18px;
+    margin-left: 110px;
+}  
+.new-offer{
+    height:130px;
+    width:140px;
+    margin-top:18px;
+    margin-left: 110px;
+}
+.giftbox-btn{
+    width:120px;
+    height:30px;
+    text-align: center;
+    font-size: 20px;
+    padding-top:5px;
+    border-radius: 20px;
+    margin: 30px auto;
+    margin-top:10px;
+    background-color:white;
+}
+.discountbox-btn{
+    width:150px;
+    height:30px;
+}
+.Membership-btn{
+    width:180px;
+    height:30px;
+}
+.font-size-topdeals{
+    font-size: 40px;
+    font-weight:normal;
+}
+.video-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: lightgrey;
+}
+.video{
+    margin-top:100px;
+    margin-bottom: 100px;
+    margin-left: -50px;
+    border: solid gray 10px;
+}
+.video-text{
+    margin-top:150px;
+    margin-bottom: 100px;
+    font-size: 25px;
+    height: 300px;
+    width: 600px;
+}
+.span-text{
+    font-size: 40px;
+    color: black;
+}
+.best-sale{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.best-sale-card{
+    height:500px;
+    width: 350px;
+    border-radius:40px;
+    margin: 50px auto;
+    margin-bottom:70px ;
+    background-color:lightgrey;
+}
+.h-bestdeal{
+    margin-top:60px;
+}
+.oneplus-deal{
+    height: 400px;
+    width: 400px;
+    margin-left: -20px;
+}
+.iphone-deal{
+    height: 360px;
+    width: 400px;
+    margin-left:-20px;
+    margin-top:15px;
+    margin-bottom: 20px;
+}
+.vivo-deal{
+    height: 360px;
+    width: 400px;
+    margin-left:-20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.deal-btn{
+   height:30px;
+   width:170px;
+   margin-top:-10px;
+   margin-left: 100px;
+   border-radius: 30px;
+   padding-top: 10px;
+   padding-bottom: 15px;
+   background-color:white;
+   color:black;
+   cursor: pointer;
+}
+.deal-btn:hover{
+    background-color:white;
+    box-shadow: 0 0 6px 2px gray;
+}
+.text-dealcard{
+    font-size:25px;
+    margin-top: -30px;
+}
+.rs{
+    color:#ff0000;
+    font-weight: bold;
+}
+.font-family-helvitica{
+    font-family:'Helvetica', sans-serif;
+}
+.font-size-34{
+    font-size:20px;
+}
+.valid-gcard{
+    background-color: #b3b3b3;
+    height: 70px;
+    margin-bottom: 5px;
+    border-radius: 0 0 30px 30px;
+    padding-top: 10px;
+    color:#404040;
+    font-weight: 400;
+}
+.text-decoration{
+    text-decoration: none;
+}
+.align-left{
+    align-items: left;
+    margin-left: 60px;
+    font-size:40;
 }
