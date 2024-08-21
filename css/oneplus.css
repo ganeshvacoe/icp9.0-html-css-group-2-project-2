@@ -173,6 +173,13 @@ body{
     width: 300px;
  }
  .btnn{
-    text-align: center;
+    width: 150px;
+    display: block;
     margin: 10px auto;
+    background-color: black;
+    height: 35px;
+    color: #fff;
+    border-radius: 30px;
+
+
  }
