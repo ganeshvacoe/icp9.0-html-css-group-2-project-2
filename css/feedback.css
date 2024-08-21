@@ -82,8 +82,8 @@ border-radius: 30px;
 }
 .btn{
     font-weight: bold;
-    background-color: #0f061f ;
-    color: white;
+    background-color: #4d4d4d;
+    color: black;
     border-radius: 20px;
     border: none;
     padding: 10px 40px;
@@ -92,7 +92,7 @@ border-radius: 30px;
     cursor: pointer;
 }
 .btn:hover{
-    background-color: #ccccff;
+    background-color: #404040;
     font-weight: bold;
     box-shadow: -5px 5px 10px 1px #131620;
     color: #0f061f;
