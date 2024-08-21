@@ -5,8 +5,9 @@ body{
 
 .align{
     text-align: center;
-    color: #fff;
     font-size: 20px;
+    padding: 10px;
+    margin: 10px;
 }
 .favicon{
     height: 40px;
@@ -28,4 +29,11 @@ body{
     text-align: center;
     color: #fff;
 }
-
+.alignn{
+    text-align: center;
+}
+.ul{
+    margin: 470px ;
+    margin-top: 0px;
+    font-size: 25px;
+}

@@ -85,7 +85,7 @@ body{
  }
  .vivo-card1{
      height: 400px;
-     width:300px;
+     width:350px;
      margin:100px 20px;
      border-radius: 30px;
      padding-bottom:100px;
@@ -168,4 +168,11 @@ body{
      top:3100px;
      height: 250px;
  }
- 
+ .img{
+    height: 350px;
+    width: 300px;
+ }
+ .btnn{
+    text-align: center;
+    margin: 10px auto;
+ }
