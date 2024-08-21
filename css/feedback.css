@@ -8,8 +8,8 @@ body{
         height: 1200px;
 }
 .sub-heading{
-    color:white;
-    font-size: 20px;
+    color:black;
+    font-size: 18px;
 }
 .favicon{
     height: 40px;
@@ -73,7 +73,7 @@ border-radius: 30px;
     text-align: center;
     padding-top: 10px;
     background-color:transparent;
-    color: white;
+    color: #404040;
 }
 .heading-feedback:hover{
 border: dotted gainsboro 1px;
