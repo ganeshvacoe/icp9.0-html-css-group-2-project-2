@@ -156,15 +156,14 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color: aqua;
+    background-color:#d9d9d9;
     height: 250px;
     width: 100%;
 }
 .footer-cards{
     height: 200px;
     width: 200px;
-    background-color: tomato;
-    margin: 30px auto;
+    margin:15px auto;
 }
 .size-footer{
     font-size:20px;
