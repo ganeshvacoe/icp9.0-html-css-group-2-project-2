@@ -158,6 +158,8 @@ body{
     align-items: center;
 }
 
+/*----------------cards---------------------*/
+
 .products .card .box{
     display: flex;
     justify-content: space-between;
@@ -169,6 +171,22 @@ body{
     font-family: "Averia Sans Libre", sans-serif;
     text-align: start;
     align-items: center;
+}
+.btn-samsung-cards{
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    padding: -2px;
+    font-size: 18px;
+    margin-left: 100px;
+    background-color:#595959;
+    color: white;
+    margin-top: -50px;
+}
+.btn-samsung-cards:hover{
+    background-color:white;
+    color: black;
 }
 
 .products .card .imgRating{
