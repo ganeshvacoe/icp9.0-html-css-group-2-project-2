@@ -171,6 +171,25 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 100%;
     margin-top: 60px;
 }
+.footer-contact-pages{
+    position: relative;
+    top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:white;
+    height: 250px;
+    width: 100%;
+    margin-top: 10px;
+}
+.footer-contact-copywrites{
+    position: relative;
+    top:220px;
+    background-color: white;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
 .footer-copywrites{
     position: relative;
     top: 2010px;
