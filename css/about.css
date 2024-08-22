@@ -54,3 +54,12 @@ body{
 .font-family{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
+
+.footer-asize{
+    margin-top:-300px;
+    background-color: white;
+    padding-bottom: 40px;
+}
+.pos-about{
+    margin-top: -30px;
+}

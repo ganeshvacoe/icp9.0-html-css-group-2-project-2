@@ -162,10 +162,16 @@ body{
     color: red;
 }
 .footer-category{
+    position: relative;
+    top: 800px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color:#d9d9d9;
-    height: 650px;
+    background-color:white;
+    height: 300px;
     width: 100%;
+}
+.footer-text{
+    position: relative;
+    top: 750px;
 }
