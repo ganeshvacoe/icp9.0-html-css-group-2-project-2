@@ -1,11 +1,11 @@
 body{
     background-color:gainsboro;
+    height: 2600px;
  }
- .background-img-VIVO{
-     background-image: url("./../Images/index-img/sec-1-bg.jpg");
-     background-repeat: no-repeat;
-     background-size: 100% 100%;
-     height: 450px;
+ .oneplus-heading{
+    color:black;
+    font-size:50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  }
  .off-video-heading{
      display: flex;
@@ -73,15 +73,16 @@ body{
      transition: 1sec;
  }
  /*----------------cards---------------------*/
- .vivo-cards-box{
+ .oneplus-cards-box{
      display: flex;
      flex-direction:row;
      flex-wrap: wrap;
      justify-content:space-evenly;
      width:100%;
-     height:1100px;
+     height:2300px;
      margin-top:-100px;
-     background-color:gainsboro;
+     margin-bottom: 50px;
+    
  }
  .vivo-card1{
      height: 400px;
@@ -180,6 +181,12 @@ body{
     height: 35px;
     color: #fff;
     border-radius: 30px;
-
-
  }
+ .footer-oneplus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:white;
+    height: 250px;
+    width: 100%;
+}
