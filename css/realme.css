@@ -64,6 +64,13 @@ body{
     font-family: "Averia Sans Libre", sans-serif;
     font-weight: bold;
 }
+.T-Series-heading{
+    position:relative;
+    top:2220px;
+    font-size: 30px;
+    font-family: "Averia Sans Libre", sans-serif;
+    font-weight: bold;
+}
 
 .cards-container{
     display: inline-block;
@@ -81,7 +88,7 @@ body{
     height:400px;
     width:300px;
     margin-left: 30px;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 100px;
     border-radius: 30px;
     padding-bottom:150px;
