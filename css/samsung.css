@@ -158,6 +158,15 @@ body{
     align-items: center;
 }
 
+.footer-oneplus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:white;
+    height: 250px;
+    width: 100%;
+}
+
 /*----------------cards---------------------*/
 
 .products .card .box{
