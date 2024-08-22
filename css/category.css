@@ -1,11 +1,17 @@
 body{
     background-color:lightgrey;
 }
-.background-img-category{
-    background-image: url("./../Images/index-img/sec-1-bg.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height: 1300px;
+.heading-category{
+    font-size:35px;
+    width:700px;
+    height:60px;
+    margin-left:430px;
+    margin-top: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    background-color:transparent;
+    color:#404040;
 }
 .category-card-container{
     width: 100%;
@@ -16,18 +22,18 @@ body{
     flex-wrap: wrap;
     margin: 20px auto;
     margin-top: 70px;
-    background-color:transparent;
 }
 .category-c1{
-    height: 400px;
+    height: 450px;
     width: 300px;
-    margin: 30px;
-    background-color:transparent;
+    margin:30px;
+    margin-bottom: 80px;
+    background-color:white;
+    border-radius: 30px;
     border: none;
-    box-shadow: none;
 }
 .category-c1:hover{
-    box-shadow: 0 0 4px 2px white;
+    box-shadow: 0 0 15px 3px #595959;
 }
 .iphone-img{
     width: 110%;
@@ -53,16 +59,16 @@ body{
     margin-top:-14px;
 }
 .samsung-img{
-    width: 110%;
-    height: 310px;
+    width: 105%;
+    height: 290px;
     margin-top:30px;
-    margin-left: -12px;
+    margin-left: -4px;
 }
 .vivo-img{
-    width: 110%;
-    height: 320px;
+    width: 100%;
+    height: 300px;
    margin: 20px auto;
-   margin-left: -10px;
+   margin-left: 2px;
 }
 .readmi-img{
     width: 110%;
@@ -74,32 +80,92 @@ body{
     width: 120%;
     height: 340px;
    margin: 10px auto;
+   margin-top: -5px;
    margin-left: -30px;
+}
+.nothing-img{
+    width: 100%;
+    height: 300px;
+   margin: 10px auto;
+   margin-top:10px;
+   margin-left: 6px;
 }
 .phone-name{
     font-size:25px;
     margin-top:30px;
 }
-.btn{
-    width: 100px;
+.btn-cate-card{
+    width: 100%;
     height: 40px;
-    border-radius: 30px;
     border: none;
     padding: -2px;
     font-size: 18px;
-    margin-left: 100px;
-    background-color:black;
+    margin-left: 0%;
+    border-radius: 0 0 30px 30px;
+    background-color:#404040;
     color: white;
 }
-.btn-2{
-   margin-top: 10px;
+.btn-cate-card:hover{
+    background-color:#737373;
+    color:white;
 }
-.btn-3{
-    margin-top:15px;
+.brand-name{
+    text-align: center;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
 }
-.btn-4{
-    margin-top: 15px;
+.price-category{
+    font-size:20px;
+    text-align: center;
+    margin-top: -10px;
 }
-.btn-5{
-    margin-top: 15px;
+.bn-iphone{
+    margin-top: -10px;
+}
+.bn-realme{
+    margin-top: -2px;
+}
+.bn-one-plus{
+    margin-top:5px;
+}
+.bn-samsung{
+    margin-top:4px;
+}
+.bn-vivo{
+    margin-top:-20px;
+}
+.bn-oppo{
+    margin-top:5px;
+}
+.bn-mi{
+    margin-top: -30px;
+}
+.bn-nothing{
+    margin-top: -5px;
+}
+.price-category-vivo{
+    font-size:20px;
+    text-align: center;
+    margin-top: -15px;
+}
+.discover{
+    font-size:25px;
+    color:black;
+    text-align: center;
+    margin-left:90px;
+    margin-top:10px;
+    font-weight:400;
+}
+.cate-rs{
+    color: red;
+}
+.footer-category{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:#d9d9d9;
+    height: 650px;
+    width: 100%;
 }
