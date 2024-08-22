@@ -144,8 +144,70 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: -2px;
     font-size: 18px;
     margin-left: 100px;
-    background-color:black;
+    background-color:#595959;
     color: white;
     margin-top: -50px;
 }
-
+.index-background{
+    background-color:#d9d9d9;
+    height:780px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:#d9d9d9;
+    height: 250px;
+    width: 100%;
+}
+.footer-cate-pages{
+    position: relative;
+    top: 2000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:white;
+    height: 250px;
+    width: 100%;
+    margin-top: 60px;
+}
+.footer-contact-pages{
+    position: relative;
+    top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:white;
+    height: 250px;
+    width: 100%;
+    margin-top: 10px;
+}
+.footer-contact-copywrites{
+    position: relative;
+    top:220px;
+    background-color: white;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+.footer-copywrites{
+    position: relative;
+    top: 2010px;
+    background-color: white;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+.footer-cards{
+    height: 200px;
+    width: 200px;
+    margin:15px auto;
+}
+.size-footer{
+    font-size:20px;
+    font-weight:bold;
+}
+.copywrite{
+    background-color: #737373;
+    height:70px;
+}
