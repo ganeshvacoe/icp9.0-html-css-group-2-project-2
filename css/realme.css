@@ -43,7 +43,7 @@ body{
 }
 .X-Series-heading{
     position:relative;
-    top:40px;
+    top:30px;
     font-size: 30px;
     font-family: "Averia Sans Libre", sans-serif;
     font-weight: bold;
@@ -51,7 +51,7 @@ body{
 
 .V-Series-heading{
     position:relative;
-    top:500px;
+    top:800px;
     font-size: 30px;
     font-family: "Averia Sans Libre", sans-serif;
     font-weight: bold;
@@ -74,7 +74,7 @@ body{
 
 .cards-container{
     display: inline-block;
-    justify-content: space-betwe;
+    justify-content: space-betweeen;
     text-align: center;
     width:100%;
     height:100vh
@@ -88,7 +88,6 @@ body{
     height:400px;
     width:300px;
     margin-left: 30px;
-    margin-top: 20px;
     margin-bottom: 50px;
     border-radius: 30px;
     padding-bottom:150px;
