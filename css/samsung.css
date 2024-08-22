@@ -7,6 +7,10 @@ body{
      flex-wrap: wrap;
      justify-content: space-between;
  }
+ #image1{
+    height: 300px;
+    margin-top: 20px;
+ }
  .samsung-video{
      position: relative;
      top: 100px;
