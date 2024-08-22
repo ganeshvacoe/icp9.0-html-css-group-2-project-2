@@ -26,7 +26,8 @@ body{
 .category-c1{
     height: 450px;
     width: 300px;
-    margin: 30px;
+    margin:30px;
+    margin-bottom: 80px;
     background-color:white;
     border-radius: 30px;
     border: none;
@@ -159,4 +160,12 @@ body{
 }
 .cate-rs{
     color: red;
+}
+.footer-category{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:#d9d9d9;
+    height: 650px;
+    width: 100%;
 }
