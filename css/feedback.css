@@ -2,14 +2,13 @@ body{
     background-color:lightgrey;
 }
 .section-1{
-        background-image: url("./../Images/index-img/sec-1-bg.jpg");
         background-repeat: no-repeat;
         background-size: 100% 100%;
         height: 1200px;
 }
 .sub-heading{
-    color:white;
-    font-size: 20px;
+    color:black;
+    font-size: 17px;
 }
 .favicon{
     height: 40px;
@@ -17,15 +16,23 @@ body{
 }
 
 .rating-container{
-    background-color: #ccccff;
+    background-color: #b3b3b3;
     height: 100px;
     width: 700px;
     padding: 15px;
     margin: 70px auto;
     border-radius: 30px;
-    box-shadow: -5px 5px 10px 1px #131620;
+    box-shadow: -10px 10px 10px 3px #131620;
     border: 0.5px solid #e3f6f5;
 }
+
+.rating-container:hover{
+    box-shadow: -5px 5px 20px 2px #2d334a ;
+    transition: 1s;
+    cursor: pointer;
+
+}
+
 .rating-icon{
     height: 30px;
     width: 30px;
@@ -54,4 +61,41 @@ body{
 border: dotted gainsboro 1px;
 box-shadow: 0 0 7px 2px white;
 border-radius: 30px;
+}
+.heading-feedback{
+    font-size: 33px;
+    width:600px;
+    height:60px;
+    margin-left:450px;
+    margin-top:-10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    background-color:transparent;
+    color: #404040;
+}
+.heading-feedback:hover{
+border: dotted gainsboro 1px;
+box-shadow: 0 0 7px 2px white;
+border-radius: 30px;
+}
+.btn{
+    font-weight: bold;
+    background-color: #737373;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 40px;
+    display: block;
+    margin: 10px auto;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #404040;
+    font-weight: bold;
+    box-shadow: -5px 5px 10px 1px #131620;
+    color: black;
+}
+.checkbox{
+    width: 20px;
 }
